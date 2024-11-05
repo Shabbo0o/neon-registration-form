@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section id="main">
+            <div class="section">
+                <h2 class="registeration-container">Registeration</h2>
+                <div class="formContainer">
+                    <form action="https://httpbin.org/anything" method="post">
+                        <div class="firstName">
+                            <label for="firstName">First Name</label>
+                            <input id="firstName" name="firstName" type="text" required />
+                        </div>
+                        <div class="lastName">
+                            <label for="lastName">Last Name</label>
+                            <input id="lastName" name="lastName" type="text" required />
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" required />
+                        </div>
+                        <div class="userName">
+                            <label for="userName">User Name</label>
+                            <input id="userName" name="userName" type="text" required />
+                        </div>
+                        <div class="password">
+                            <label for="pass">Password</label>
+                            <input id="pass" name="password" type="password" required />
+                        </div>
+                        <div class="confim-password">
+                            <label for="confirm-pass">Confirm Password</label>
+                            <input id="confirm-pass" name="confirm-password" type="password" required />
+                        </div>
+                        <div class="movieGenre">
+                            <label for="movieGenre">Choose your favorite movie genre</label><br> 
+                            <input type="radio" id="drama" name="movieGenre" value="Drama" checked="checked">
+                            <label for="drama">Drama</label><br>
+                            <input type="radio" id="comedy" name="movieGenre" value="Comedy">
+                            <label for="comedy">Comedy</label><br>
+                            <input type="radio" id="science-fictio" name="movieGenre" value="Science Fiction">
+                            <label for="science-fictio">Science Fiction</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" id="terms" name="terms" value="True" required>
+                            <label for="terms">I agree to these terms and conditions.</label>
+                        </div>
+                        <div class="send">
+                            <button type="submit" class="button">OK</button>
+                            <button type="cancel" class="button">Cancel</button>
+                        </div>
+                        <div class="cancel"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
