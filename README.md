@@ -23,11 +23,12 @@ This form project combines personal information entry with visual effects that h
 
 ## Folder Structure
 
-neon-registration-form/
-
+neon-registration-form
+```plaintext
 ├── index.html        # Main HTML file
 ├── style.css         # CSS file for styling
 └── README.md         # Documentation file
+```
 
 ## Design Details
 ### Colors, Lights, and Shadows
